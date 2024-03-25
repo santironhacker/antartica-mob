@@ -1,10 +1,11 @@
 import { NgModule } from "@angular/core";
 import { ButtonModule } from 'primeng/button';
+import { SidebarModule } from 'primeng/sidebar';
 
-const primeNgModules = [ButtonModule];
+const primeNgModules = [ButtonModule, SidebarModule];
 
 @NgModule({
     imports: [primeNgModules],
     exports: [primeNgModules],
 })
-export class AppModule {}
+export class PrimeNgModules {}

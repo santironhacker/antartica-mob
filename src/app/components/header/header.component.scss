@@ -1,0 +1,16 @@
+.header {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	&__title {
+		grid-column-start: 1;
+	}
+
+	&__nav {
+		grid-column-start: 4;
+
+		&__btn {
+			float: right;
+		}
+	}
+}

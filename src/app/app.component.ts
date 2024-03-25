@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     title = 'antartica-mob';
+	sidebarVisible = false;
+
+	onNavClicked(): void {
+		console.log('heo')
+		this.sidebarVisible = !this.sidebarVisible;
+	}
 }
